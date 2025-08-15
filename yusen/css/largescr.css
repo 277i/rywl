@@ -624,17 +624,19 @@ th {
 	display: flex;
 	/* flex-direction: column; */
   margin-bottom: 20px;
+  padding-left: 20px;
+  box-sizing: border-box;
 }
 .send-title{
 	display: flex;
   color: #FF7434;font-weight: bold;
   font-size: 20px;
   white-space: nowrap;
-  min-width: 130px;
+  /* min-width: 130px; */
 }
 .send-title img{
-	width: 24px;
-    height:20px;
+	width: 21px;
+  height:21px;
 	margin-right: 10px;
 	margin-top:7px
 }
@@ -648,7 +650,7 @@ th {
 }
 .ov .btn{
 	float: left;
-	margin: 5px 5px 15px 5px;
+	margin: 5px 45px 15px 45px;
 	width:80px;
 	height: 30px;
 	line-height: 30px;
@@ -717,6 +719,8 @@ th {
   display: flex;
   align-items: flex-start;
   margin-bottom: 35px;
+  padding-left: 20px;
+  box-sizing: border-box;
 }
 .adrs .ri{
   width: 135px;
@@ -740,15 +744,27 @@ th {
 /* width: 95%; */
 margin: 0 auto;
 justify-content: space-between;
-margin-top: 80px;
 }
-
-.flew .tr {
-  width: 30%;
+.flew .tr2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 45px;
+}
+.flew .tr2 img {
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+.flew .tr {
+  /* width: 30%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.flew .tr img {
+  padding: 20px 0;
+  box-sizing: border-box;
 }
 .flew .tr p{
   margin-top: 15px;
