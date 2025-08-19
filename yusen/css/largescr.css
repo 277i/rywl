@@ -618,11 +618,12 @@ th {
 .city {
   display: flex;
   flex-wrap: wrap;
+  flex:1
   /* padding-left:100px; */
 }
 .ov .btn {
   float: left;
-  margin: 5px 45px 15px 45px;
+  margin: 5px 90px 15px 0;
   width: 80px;
   height: 30px;
   line-height: 30px;
@@ -700,6 +701,7 @@ th {
 }
 .adrs .ri img {
   width: 21px;
+  height:21px;
   margin-right: 12px;
 }
 .adrs .rit {
