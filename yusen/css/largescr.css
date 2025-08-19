@@ -5,7 +5,7 @@
 }
 
 .bannbg {
-width: 100%;
+  width: 100%;
 }
 .screen .show-bg {
   position: absolute;
@@ -36,13 +36,11 @@ width: 100%;
   /* position: absolute;
   right: 0; */
   /* position: relative; */
-
 }
-.t-tits{
+.t-tits {
   margin-top: 150px;
- margin-right: 20px;
+  margin-right: 20px;
 }
-
 
 .screen .p1-btn-box {
   display: none;
@@ -88,7 +86,7 @@ width: 100%;
   width: 27%;
 }
 
-.intro-points li>i {
+.intro-points li > i {
   width: 82px;
   padding-bottom: 82px;
 }
@@ -213,7 +211,6 @@ width: 100%;
   letter-spacing: 3px;
 }
 
-
 .le {
   min-width: 70%;
   max-height: 360px;
@@ -225,25 +222,21 @@ width: 100%;
   -webkit-line-clamp: 12;
 }
 
-
 .imgs {
-
   width: 90%;
   margin: 40px auto;
 }
 
 .box1 {
   background-color: #c0a88c;
-
 }
 
 .box2 {
   /* background-color: #fff; */
   min-height: 750px;
   position: relative;
-
 }
-.bgg{
+.bgg {
   min-height: 680px;
   background: url("../images/bg-t.png") no-repeat center;
   background-size: cover;
@@ -279,7 +272,6 @@ width: 100%;
 
 .swiper-container {
   width: 100%;
-
 }
 
 .swiper-slide img {
@@ -288,52 +280,52 @@ width: 100%;
 }
 
 /* 校招行程 */
-.reb{
+.reb {
   position: relative;
 }
-.hover{
+.hover {
   position: absolute;
   z-index: 20;
   left: 20px;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 5px;
   top: 54px;
   color: #fff;
 }
-.hover a{
+.hover a {
   display: block;
   font-weight: normal;
 }
 .tit1 {
   margin-top: 50px;
 }
-.jobs{
+.jobs {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
 }
-.jobs>div{
+.jobs > div {
   width: 14%;
   text-align: center;
   margin-bottom: 2%;
 }
-.tt{
+.tt {
   margin-top: 20px;
 }
-.mt65{
+.mt65 {
   margin-bottom: 65px;
 }
-.pinden{
+.pinden {
   text-indent: 2em;
 }
-.plan{
+.plan {
   position: absolute;
   z-index: 50;
   top: 0;
   right: 0;
 }
-.apply{
+.apply {
   width: 112px;
   height: 38px;
   line-height: 38px;
@@ -342,13 +334,13 @@ width: 100%;
   cursor: pointer;
 }
 
-.show{
+.show {
   height: 30px;
   line-height: 30px;
   text-align: center;
   color: #fff;
 }
-.name{
+.name {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -360,80 +352,74 @@ width: 100%;
   padding-left: 0;
 }
 
-.items{
+.items {
   display: none;
 }
-.jname{
+.jname {
   text-align: center;
   border-left: 5px solid #fff;
   padding-left: 10px;
 }
-.mb10 p{
+.mb10 p {
   margin-bottom: 10px;
 }
-.ron{
+.ron {
   display: none;
 }
-.show{
+.show {
   cursor: pointer;
 }
 
-.item p span{
+.item p span {
   color: #c0a88c;
 }
 
-
-.enter{
+.enter {
   display: inline-block;
-
 }
-
-
-
-
 
 /* 遮罩层 */
-.mask{
-	display: none;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	background: rgba(0, 0, 0, .5);
-	z-index: 8;
+.mask {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 8;
 }
-.showitem{
-	overflow: hidden;
-	display: none;
-	position: absolute;
-	width: 624px;
-	height: 400px;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%,-51%);
-	background-color: #fff;
-	z-index: 10;
-	font-size: 0.24rem;
-	box-shadow: 0px 0px 4px #727171;
-	margin-bottom: 0.24rem;
-	color: #333;
+.showitem {
+  overflow: hidden;
+  display: none;
+  position: absolute;
+  width: 624px;
+  height: 400px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -51%);
+  background-color: #fff;
+  z-index: 10;
+  font-size: 0.24rem;
+  box-shadow: 0px 0px 4px #727171;
+  margin-bottom: 0.24rem;
+  color: #333;
 }
-.msco{
+.msco {
   overflow-y: scroll;
   height: 310px;
 }
-.name3{
+.name3 {
   height: 55px;
   background-color: #c0a88c;
   color: #fff;
   text-align: center;
   line-height: 55px;
 }
-.msco p span{
+.msco p span {
   color: #c0a88c;
 }
-.btt{
+.btt {
   width: 100px;
   height: 35px;
   text-align: center;
@@ -444,22 +430,10 @@ width: 100%;
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
 /* 空宣 */
 .emty2 {
   height: 500px;
 }
-
-
-
-
 
 /* 员工福利 */
 .navs {
@@ -490,7 +464,6 @@ width: 100%;
 }
 
 .li5 {
-
   width: 60%;
   margin: 0 auto;
   text-align: left;
@@ -560,7 +533,6 @@ width: 100%;
   margin: 0 auto;
 }
 
-
 .w76 .swiper-button-next,
 .w76 .swiper-button-prev {
   width: 34px;
@@ -577,7 +549,6 @@ width: 100%;
 .item2 .w76 {
   margin-top: 50px;
 }
-
 
 /* 校园招聘 */
 table {
@@ -620,44 +591,45 @@ th {
 .w620 {
   width: 620px;
 }
-.send{
-	display: flex;
-	/* flex-direction: column; */
+.send {
+  display: flex;
+  /* flex-direction: column; */
   margin-bottom: 20px;
   padding-left: 20px;
   box-sizing: border-box;
 }
-.send-title{
-	display: flex;
-  color: #FF7434;font-weight: bold;
+.send-title {
+  display: flex;
+  color: #ff7434;
+  font-weight: bold;
   font-size: 20px;
   white-space: nowrap;
   /* min-width: 130px; */
 }
-.send-title img{
-	width: 21px;
-  height:21px;
-	margin-right: 10px;
-	margin-top:7px
+.send-title img {
+  width: 21px;
+  height: 21px;
+  margin-right: 10px;
+  margin-top: 7px;
 }
-.ov{
-	overflow: hidden;
+.ov {
+  overflow: hidden;
 }
-.city{
-	display: flex;
-	flex-wrap: wrap;
-	/* padding-left:100px; */
+.city {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-left:100px; */
 }
-.ov .btn{
-	float: left;
-	margin: 5px 45px 15px 45px;
-	width:80px;
-	height: 30px;
-	line-height: 30px;
-	text-align: center;
-	background-color: #FF6D10;
-	color: #fff;
-	border-radius: 16px;
+.ov .btn {
+  float: left;
+  margin: 5px 45px 15px 45px;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #ff6d10;
+  color: #fff;
+  border-radius: 16px;
   font-size: 16px;
   display: flex;
   justify-content: center;
@@ -676,61 +648,60 @@ th {
 .pink p {
   margin-bottom: 26px;
 }
-.code{
- display: flex;
- flex-direction: column;
- width: 100%;
- justify-content: center;
- margin-top: 25px;
+.code {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  margin-top: 25px;
 }
-.code img{
+.code img {
   width: 260px;
   /* border: 1px solid #FF7434; */
   /* padding: 2px; */
 }
-.two-code{
- 
+.two-code {
   width: 100%;
 }
-.code p{
+.code p {
   font-size: 14px;
 }
 
-
-.ht{
+.ht {
   line-height: 33px;
   text-indent: 2em;
   color: #06183d;
   max-width: 1000px;
   margin: 0 auto;
 }
-.ht2{
+.ht2 {
   line-height: 35px;
   /* text-indent: 2em; */
   color: #06183d;
 }
-.imgs{
+.imgs {
   text-align: center;
 }
-.item{
+.item {
   margin-top: 48px;
 }
-.adrs{
+.adrs {
   display: flex;
   align-items: flex-start;
   margin-bottom: 35px;
   padding-left: 20px;
   box-sizing: border-box;
 }
-.adrs .ri{
+.adrs .ri {
   width: 135px;
   display: flex;
   align-items: center;
 }
-.adrs .ri img{
+.adrs .ri img {
+  width: 21px;
   margin-right: 12px;
 }
-.adrs .rit{
+.adrs .rit {
   flex: 1;
 }
 /* .imgs img{
@@ -738,12 +709,12 @@ th {
 } */
 
 .flew {
-
   display: flex;
   flex-wrap: wrap;
-/* width: 95%; */
-margin: 0 auto;
-justify-content: space-between;
+  /* width: 95%; */
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 .flew .tr2 {
   display: flex;
@@ -762,14 +733,36 @@ justify-content: space-between;
   align-items: center;
   margin-bottom: 45px;
 }
+.flew .center {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.flew .leftstyle {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.flew .rightstyle {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 45px;
+}
 .flew .tr img {
   padding: 20px 0;
   box-sizing: border-box;
 }
-.flew .tr p{
+.flew .tr p {
   margin-top: 15px;
 }
-.texttit{
+.texttit {
   width: 142px;
   height: 44px;
   text-align: center;
@@ -778,27 +771,25 @@ justify-content: space-between;
   border-radius: 8px;
   background-color: #2b3050;
   color: #fff;
-
 }
-.xian{
+.xian {
   width: 50%;
   margin: 0 auto;
   margin-top: 25px;
-
 }
-.ws{
+.ws {
   text-align: center;
   width: 40%;
   margin: 0 auto;
   background: url(../images/bot.png) no-repeat bottom;
   background-size: 100%;
   padding-bottom: 17px;
-  color: #4B5170;
+  color: #4b5170;
 }
-.ws p{
+.ws p {
   /* white-space: nowrap; */
 }
-.ws2{
+.ws2 {
   display: flex;
   /* flex-direction: column; */
   justify-content: center;
@@ -807,30 +798,28 @@ justify-content: space-between;
   align-items: end;
   margin-top: 25px;
 }
-.mew>div{
+.mew > div {
   display: flex;
-margin-top: 10px;
-flex-direction: column;
-
+  margin-top: 10px;
+  flex-direction: column;
 }
-.mew>div>div{
+.mew > div > div {
   display: flex;
   margin-bottom: 10px;
   white-space: nowrap;
 }
-.mew>div img{
+.mew > div img {
   margin-right: 10px;
   width: 22px;
   height: 22px;
 }
-.mew{
+.mew {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
-.lianc{
+.lianc {
   position: relative;
   width: 100%;
   /* height: 500px; */
@@ -840,64 +829,63 @@ flex-direction: column;
   background-position: 15px 115px;
   /* padding-bottom: 100px; */
 }
-.ffl{
+.ffl {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   /* position: relative; */
 }
-.fflast{
+.fflast {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 5%;
 }
-.lianc .ib{
+.lianc .ib {
   width: 30%;
   margin-bottom: 85px;
   text-align: center;
   height: 85px;
   position: relative;
 }
-.abss{
+.abss {
   width: 90%;
   left: 50%;
   transform: translateX(-50%);
-  position: absolute;top: 15%;
+  position: absolute;
+  top: 15%;
 }
-.abss img{
+.abss img {
   width: 100%;
-  
 }
-.ffl2{
-  margin-top: 30px
+.ffl2 {
+  margin-top: 30px;
 }
-.ffl2 .ib{
-  margin-top: 2%
+.ffl2 .ib {
+  margin-top: 2%;
 }
-.ffl3{
+.ffl3 {
   margin-top: 60px;
 }
-.ffl3 .ib{
-  margin-top: 2%
-  
+.ffl3 .ib {
+  margin-top: 2%;
 }
-.ffl3 .ib img{
+.ffl3 .ib img {
   position: absolute;
   top: -54px;
   left: 50%;
   transform: translateX(-50%);
 }
-.ckd{
+.ckd {
   /* height: 100px; */
 }
-.fflast img{
+.fflast img {
   position: absolute;
   top: -54px;
   left: 50%;
   transform: translateX(-50%);
 }
-.ffl2 .ib img{
+.ffl2 .ib img {
   position: absolute;
   top: -24px;
   left: 50%;
