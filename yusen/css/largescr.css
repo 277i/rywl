@@ -673,6 +673,7 @@ th {
   color: #06183d;
   max-width: 1000px;
   margin: 0 auto;
+  text-align: justify;
 }
 .ht2 {
   line-height: 35px;
