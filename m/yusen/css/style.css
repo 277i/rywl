@@ -757,6 +757,7 @@ img {
 }
 .send-title {
   display: flex;
+  align-items: center;
 }
 .send-title img {
   width: 0.2rem;
