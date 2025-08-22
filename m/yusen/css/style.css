@@ -450,6 +450,49 @@ img {
   padding: 0 0.55rem;
   box-sizing: border-box;
 }
+.content2 {
+  width: 100%;
+  letter-spacing: 0.001rem;
+  font-size: 0.23rem;
+  color: #142447;
+
+  @media only screen and (max-width: 346px) {
+    font-size: 0.15rem;
+  }
+  @media only screen and (max-width: 360px) {
+    font-size: 0.2rem;
+  }
+  @media only screen and (min-width: 390px) {
+    font-size: 0.18rem;
+  }
+}
+.content2_item {
+  text-align: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1rem;
+}
+.content2_item .iconImg {
+  vertical-align: middle;
+  width: 0.29rem;
+  padding-right: 0.01rem;
+  box-sizing: border-box;
+  @media only screen and (max-width: 346px) {
+    width: 0.18rem;
+  }
+  @media only screen and (max-width: 360px) {
+    width: 0.2rem;
+  }
+  @media only screen and (min-width: 390px) {
+    width: 0.21rem;
+  }
+}
+.content2_item a {
+  font-weight: bold;
+  color: #142447;
+}
 /* ----------------
 	引导页s1结束
 ----------------- */
