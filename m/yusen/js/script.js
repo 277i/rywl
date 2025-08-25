@@ -60,7 +60,7 @@
           // 	$('.menuss').show()
           // }
           $(".mulist p").removeClass("on");
-          $(`.mulist p:eq(${this.realIndex - 1})`).addClass("on");
+          $(`.mulist p:eq(${this.realIndex})`).addClass("on");
           // $(`.mulist p:eq(${index})`).addClass('on')
         },
       },
@@ -96,7 +96,7 @@
         // 		mySwiper.slideTo(1, 1000, true);
         // 		break;
         // }
-        mySwiper.slideTo(index + 1, 1000, true);
+        mySwiper.slideTo(index, 1000, true);
         $(".dw").hide();
         $(".btnshow").show();
         $(".mulist p").removeClass("on");
