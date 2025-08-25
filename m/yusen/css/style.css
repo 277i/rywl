@@ -423,7 +423,7 @@ img {
   left: 0;
   width: 100%;
   height: 100vh;
-  z-index: 1001;
+  z-index: 10000;
 }
 
 .msco {
@@ -872,4 +872,14 @@ img {
   /* line-height: 22px; */
 
   display: flex;
+}
+@media screen and (max-width: 768px) {
+  .entrance-cover__img {
+    width: 1rem !important;
+  }
+}
+@media screen and (max-width: 768px) {
+    .entrance-cover {
+        width: 1.5rem !important;
+    }
 }
