@@ -875,11 +875,12 @@ img {
 }
 @media screen and (max-width: 768px) {
   .entrance-cover__img {
-    width: 1rem !important;
+    width: 0.8rem !important;
   }
 }
 @media screen and (max-width: 768px) {
-    .entrance-cover {
-        width: 1.5rem !important;
-    }
+  .entrance-cover {
+    top: 35% !important;
+    width: 1.5rem !important;
+  }
 }
