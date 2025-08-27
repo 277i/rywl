@@ -121,14 +121,21 @@ body {
   width: 100%;
   height: 100%;
 }
-
-.con {
+.bigBox {
   flex: 1;
   min-height: 0;
   width: 100%;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
+  background: #fff url("../images/m-.png") no-repeat top center;
+  background-size: 100% 100%;
+}
+.con {
+  width: 100%;
+  flex: 1;
+  min-height: 0;
   position: relative;
-  margin-bottom: 0.5rem;
 }
 
 .swiper-slide {
@@ -277,20 +284,19 @@ img {
 #s5 .info,
 #s7 .info {
   position: relative;
-  background: #fff url("../images/m-.png") no-repeat top center;
-  background-size: 100% 100%;
+  /* background-size: 100% 100%; */
   z-index: 10;
 }
 #s6 .info {
   position: relative;
-  background: #fff url("../images/m-.png") no-repeat top center;
-  background-size: 100% 100%;
+  /* background: #fff url("../images/m-.png") no-repeat top center; */
+  /* background-size: 100% 100%; */
   z-index: 10;
 }
 #s8 .info {
   position: relative;
-  background: #fff url("../images/m-.png") no-repeat top center;
-  background-size: 100% 100%;
+  /* background: #fff url("../images/m-.png") no-repeat top center; */
+  /* background-size: 100% 100%; */
   z-index: 10;
 }
 
@@ -425,25 +431,29 @@ img {
   height: 100vh;
   z-index: 10000;
 }
-
+.emptyBox {
+  height: 0.3rem;
+  margin-bottom: 0.5rem;
+}
 .msco {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 0.2rem 0;
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
-  background-color: rgba(255, 255, 255, 0.8);
+  /* background-color: rgba(255, 255, 255, 0.8); */
   font-size: 0.24rem;
   color: #000000;
 }
 .msco_content {
   width: 100%;
-  height: 100%;
-  /* margin: 0.2rem 0; */
+  flex: 1;
+  min-height: 0;
+  margin-top: 0.2rem;
   box-sizing: border-box;
   overflow-y: auto;
-  background: pink;
 }
 .content {
   width: 100%;
