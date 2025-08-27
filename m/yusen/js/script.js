@@ -41,6 +41,10 @@
     var mySwiper = new Swiper(".myswiper1", {
       //Slides的滑动方向，可设置水平(horizontal)或垂直(vertical)
       direction: "vertical",
+      height: window.innerHeight, // 必须开启！确保容器高度=视口高度
+      slidesPerView: 1, // 明确每次显示1个幻灯片，避免默认值异常
+      spaceBetween: 0, // 取消幻灯片间距（垂直滑动无需间距）
+      preventInteractionOnTransition: true, // 滑动过渡时禁止交互，避免空白闪烁
       // height: window.innerHeight,
       // slidesPerView: 1, // 每次只显示一个slide
       // resistanceRatio: 0.3,
@@ -72,7 +76,14 @@
           $(`.mulist p:eq(${listIndex})`).addClass("on");
           // $(`.mulist p:eq(${index})`).addClass('on')
         },
+        resize: function () {
+          this.updateSize(); // 窗口缩放时更新 Swiper 尺寸
+        },
       },
+    });
+    // 图片加载后校准高度
+    $(".swiper-slide .banner img").on("load", function () {
+      mySwiper.updateSize();
     });
 
     // 引导页的enter键点击划入第二页
