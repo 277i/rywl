@@ -96,6 +96,11 @@
         // 		mySwiper.slideTo(1, 1000, true);
         // 		break;
         // }
+        //空宣视频
+        if (index === 4) {
+          window.open("https://video.51job.com/watch/6340571", "_blank");
+          return;
+        }
         mySwiper.slideTo(index, 1000, true);
         $(".dw").hide();
         $(".btnshow").show();
