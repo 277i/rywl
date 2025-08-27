@@ -443,6 +443,7 @@ img {
   /* margin: 0.2rem 0; */
   box-sizing: border-box;
   overflow-y: auto;
+  background: pink;
 }
 .content {
   width: 100%;
