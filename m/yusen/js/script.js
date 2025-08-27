@@ -59,8 +59,12 @@
           // 	// $('.nav p').eq(this.realIndex).addClass('on').siblings().removeClass('on')
           // 	$('.menuss').show()
           // }
+          let listIndex = this.realIndex;
+          if (this.realIndex >= 4) {
+            listIndex = this.realIndex + 1;
+          }
           $(".mulist p").removeClass("on");
-          $(`.mulist p:eq(${this.realIndex})`).addClass("on");
+          $(`.mulist p:eq(${listIndex})`).addClass("on");
           // $(`.mulist p:eq(${index})`).addClass('on')
         },
       },
@@ -101,14 +105,17 @@
           window.open("https://video.51job.com/watch/6340571", "_blank");
           return;
         }
-        mySwiper.slideTo(index, 1000, true);
+        let targetSwiperIndex = index;
+        if (index > 4) {
+          targetSwiperIndex = index - 1;
+        }
+        mySwiper.slideTo(targetSwiperIndex, 1000, true);
         $(".dw").hide();
         $(".btnshow").show();
         $(".mulist p").removeClass("on");
         $(`.mulist p:eq(${index})`).addClass("on");
       });
     });
-
     // 需要局部滚动的页面，阻止事件冒泡 -- 阻止swiper滑动
     $(".info").on("touchmove", function () {
       event.stopPropagation();
