@@ -41,9 +41,9 @@
     var mySwiper = new Swiper(".myswiper1", {
       //Slides的滑动方向，可设置水平(horizontal)或垂直(vertical)
       direction: "vertical",
-      height: window.innerHeight,
-      slidesPerView: 1, // 每次只显示一个slide
-      resistanceRatio: 0.3,
+      // height: window.innerHeight,
+      // slidesPerView: 1, // 每次只显示一个slide
+      // resistanceRatio: 0.3,
       //将hashnav设置为true，并在每个slide处增加data-hash属性，可在当前页刷新。
       hashnav: true,
       on: {
